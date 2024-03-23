@@ -1,0 +1,29 @@
+body {
+    margin: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Pic {
+    width: 240px;
+
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #f0f5ed;
+    font-size: larger;
+    border-bottom: 5px solid #39857d;
+    box-shadow: 10px 10px 5px #39857d;
+}
+
+.card:hover {
+    background-color: #787471;
+    font-size: 150%;
+    flex-direction: row-reverse;
+    }
+
